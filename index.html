@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo 9</title>
+    <!-- Font Awesome  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Font Oswald -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;700&display=swap" rel="stylesheet">
+    <!--  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- Slick CSS -->
+    <link rel="stylesheet" href="./css/slick.css">
+    <link rel="stylesheet" href="./css/slick-theme.css">
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- Responsive -->
+    <link rel="stylesheet" href="./css/responsive.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="header__top">
+            <!-- Logo -->
+            <div class="header__logo">
+                <a href="#">
+                    <i class="header__icon fa-brands fa-atlassian"></i>
+                    <span class="header__name">Meipaly</span>
+                </a>
+            </div>
+            
+            <!-- Navigation -->
+            <div class="header__nav">
+                <ul class="header__list">
+                    <li class="header-item">
+                        <a href="#" class="header-item__link active">
+                            Home
+                        </a>
+                    </li>
+                    <li class="header-item">
+                        <a href="#service" class="header-item__link">
+                            Service
+                        </a>
+                    </li>
+                    <li class="header-item">
+                        <a href="#show-case" class="header-item__link">
+                            Show case
+                        </a>
+                    </li>
+                    <li class="header-item">
+                        <a href="#blog" class="header-item__link">
+                            Blog
+                        </a>
+                    </li>
+                    <li class="header-item">
+                        <a href="#about" class="header-item__link">
+                            About us
+                        </a>
+                    </li>
+                    <li class="header-item">
+                        <a href="#contact" class="header-item__link">
+                            Contact
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <!-- On Mobile -->
+            <div class="header__menu show-on-mobile-tablet">
+                <i class="header__icon fa-solid fa-bars"></i>
+            </div>
+            <div class="overlay-nav"></div>
+        </div>
+    </header>
+
+    <!-- Service -->
+    <section class="service" >
+        <div class="service__content">
+            <h3 class="service__sub">WELCOME TO MEIPALY AGENCY</h3>
+            <h1 class="service__heading">Smart Web Design Agency</h1>
+            <button class="service__btn">Read more</button>
+            <div class="service__wrap-icon">
+                <i class="service__icon fa-solid fa-chevron-down"></i>
+            </div>
+        </div>
+    </section>
+
+    <!-- Carousel -->
+    <section class="carousel" id="service">
+        <!-- Carousel__content -->
+        <div class="carousel__content">
+            <p class="carousel__sub">
+                SERVICES WE ARE OFFERING
+            </p>
+            <h2 class="carousel__heading">
+                WE DESIGN DIGITAL PRODUCTS THAT HELP GROW BUSINESSES.
+            </h2>
+            <p class="carousel__desc">
+                We are committed to providing our customers with exceptional service while offering
+                our employees the best training.
+            </p>
+        </div>
+
+        <!-- Carousel__slides -->
+        <div class="carousel__slick">
+            <!-- Carousel Item 1 -->
+            <div class="carousel__item">
+                <i class="carousel__item-icon fa-solid fa-blog"></i>
+                <h3 class="carousel__item-text">
+                    Website Development
+                </h3>
+            </div>
+            <!-- Carousel Item 2 -->
+            <div class="carousel__item">
+                <i class="carousel__item-icon fa-brands fa-battle-net"></i>
+                <h3 class="carousel__item-text">
+                    Seo & Content Writing
+                </h3>
+            </div>
+            <!-- Carousel Item 3 -->
+            <div class="carousel__item">
+                <i class="carousel__item-icon fa-solid fa-memory"></i>
+                <h3 class="carousel__item-text">
+                    App Mobile Development
+                </h3>
+            </div>
+            <!-- Carousel Item 4 -->
+            <div class="carousel__item">
+                <i class="carousel__item-icon fa-solid fa-dice-d6"></i>
+                <h3 class="carousel__item-text">
+                    App Mobile Development
+                </h3>
+            </div>
+            <!-- Carousel Item 5 -->
+            <div class="carousel__item">
+                <i class="carousel__item-icon fa-brands fa-autoprefixer"></i>
+                <h3 class="carousel__item-text">
+                    Digital Marketing
+                </h3>
+            </div>
+            <!-- Carousel Item 6 -->
+            <div class="carousel__item">
+                <i class="carousel__item-icon fa-brands fa-500px"></i>
+                <h3 class="carousel__item-text">
+                    Seo & Content Writing
+                </h3>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio -->
+    <section class="portfolio" id="show-case">
+        <div class="portfolio__content">
+            <p class="portfolio__sub">
+                OUR PORTFOLIO
+            </p>
+            <h2 class="portfolio__heading">
+                WORK SHOWCASE
+            </h2>
+            <p class="portfolio__desc">
+                We are committed to providing our customers with exceptional service while offering our
+                employees the best training.
+            </p>
+        </div>
+
+        <!-- gallery -->
+        <div class="portfolio__gallery">
+            <ul class="gallery__list">
+                <!-- Item 1 -->
+                <li class="gallery__item">
+                    <img src="./img/showcase_img_1.webp" alt="" class="item__img">
+                    <div class="overlay">
+                        <div class="overlay__icon">
+                            <i class="fa-solid fa-magnifying-glass-plus"></i>
+                        </div>
+                        <p class="overlay__text">
+                            <span class="overlay__text--title">
+                                Logo
+                            </span>
+                            <span class="overlay__text--content">
+                                FLIPPIN BIRD
+                            </span>
+                        </p>
+                    </div>
+                </li>
+                <!-- Item 2 -->
+                <li class="gallery__item">
+                    <img src="./img/showcase_img_2.webp" alt="" class="item__img">
+                    <div class="overlay">
+                        <div class="overlay__icon">
+                            <i class="fa-solid fa-magnifying-glass-plus"></i>
+                        </div>
+                        <p class="overlay__text">
+                            <span class="overlay__text--title">
+                                Logo
+                            </span>
+                            <span class="overlay__text--content">
+                                FLIPPIN BIRD
+                            </span>
+                        </p>
+                    </div>
+                </li>
+                <!-- Item 3 -->
+                <li class="gallery__item">
+                    <img src="./img/showcase_img_3.webp" alt="" class="item__img">
+                    <div class="overlay">
+                        <div class="overlay__icon">
+                            <i class="fa-solid fa-magnifying-glass-plus"></i>
+                        </div>
+                        <p class="overlay__text">
+                            <span class="overlay__text--title">
+                                Logo
+                            </span>
+                            <span class="overlay__text--content">
+                                FLIPPIN BIRD
+                            </span>
+                        </p>
+                    </div>
+                </li>
+                <!-- Item 4 -->
+                <li class="gallery__item">
+                    <img src="./img/showcase_img_5.webp" alt="" class="item__img">
+                    <div class="overlay">
+                        <div class="overlay__icon">
+                            <i class="fa-solid fa-magnifying-glass-plus"></i>
+                        </div>
+                        <p class="overlay__text">
+                            <span class="overlay__text--title">
+                                Logo
+                            </span>
+                            <span class="overlay__text--content">
+                                FLIPPIN BIRD
+                            </span>
+                        </p>
+                    </div>
+                </li>
+                <!-- Item 5 -->
+                <li class="gallery__item">
+                    <img src="./img/showcase_img_6.webp" alt="" class="item__img">
+                    <div class="overlay">
+                        <div class="overlay__icon">
+                            <i class="fa-solid fa-magnifying-glass-plus"></i>
+                        </div>
+                        <p class="overlay__text">
+                            <span class="overlay__text--title">
+                                Logo
+                            </span>
+                            <span class="overlay__text--content">
+                                FLIPPIN BIRD
+                            </span>
+                        </p>
+                    </div>
+                </li>
+                <!-- Item 6 -->
+                <li class="gallery__item">
+                    <img src="./img/showcase_img_7.webp" alt="" class="item__img">
+                    <div class="overlay">
+                        <div class="overlay__icon">
+                            <i class="fa-solid fa-magnifying-glass-plus"></i>
+                        </div>
+                        <p class="overlay__text">
+                            <span class="overlay__text--title">
+                                Logo
+                            </span>
+                            <span class="overlay__text--content">
+                                FLIPPIN BIRD
+                            </span>
+                        </p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Blog -->
+    <section class="blog" id="blog">
+        <div class="blog__content">
+            <p class="blog__sub">
+                OUR NEWS & ARTICLES
+            </p>
+            <h2 class="blog__heading">
+                LATEST BLOG POSTS
+            </h2>
+            <p class="blog__desc">
+                We are committed to providing our customers with exceptional service while offering our
+                employees the best training.
+            </p>
+        </div>
+
+        <!-- blog__wrap -->
+        <div class="blog__wrap">
+            <!-- row 1 -->
+            <div class="blog__row">
+                <div class="blog__column">
+                    <img src="./img/grid-metro-1.jpg" alt="" class="blog__img--large">
+                </div>
+                <div class="blog__column">
+                    <div class="row-2-4">
+                        <div class="column-2-4">
+                            <img src="./img/grid-metro-2.jpg" alt="" class="blog__img--small">
+                        </div>
+                        <div class="column-2-4">
+                            <img src="./img/grid-metro-3.jpg" alt="" class="blog__img--small">
+                        </div>
+                    </div>
+                    <div class="row-2-4">
+                        <div class="column-2-4">
+                            <img src="./img/grid-metro-4.jpg" alt="" class="blog__img--small">
+                        </div>
+                        <div class="column-2-4">
+                            <img src="./img/grid-metro-5.jpg" alt="" class="blog__img--small">
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+            <!-- row 2 -->
+            <div class="blog__row">
+                <div class="blog__column">
+                    <div class="row-2-4">
+                        <div class="column-2-4">
+                            <img src="./img/grid-metro-6.jpg" alt="" class="blog__img--small">
+                        </div>
+                        <div class="column-2-4">
+                            <img src="./img/grid-metro-7.jpg" alt="" class="blog__img--small">
+                        </div>
+                    </div>
+                    <div class="row-2-4">
+                        <div class="column-2-4">
+                            <img src="./img/grid-metro-8.jpg" alt="" class="blog__img--small">
+                        </div>
+                        <div class="column-2-4">
+                            <img src="./img/grid-metro-9.jpg" alt="" class="blog__img--small">
+                        </div>
+                    </div>
+                </div>
+                <div class="blog__column">
+                    <img src="./img/grid-metro-10.jpg" alt="" class="blog__img--large">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- statistial -->
+    <div class="statistial">
+        <div class="statistial__content">
+            <div class="statistial__info project">
+                <span class="statistial__view">8,705</span>
+                <span class="statistial__name">PROJECTS COMPLETED</span>
+            </div>
+            <div class="statistial__info active">
+                <span class="statistial__view">480</span>
+                <span class="statistial__name">ACTIVE CLIENTS</span>
+            </div>
+            <div class="statistial__info cup">
+                <span class="statistial__view">625</span>
+                <span class="statistial__name">CUPS OF COFFEE</span>
+            </div>
+            <div class="statistial__info client">
+                <span class="statistial__view">9,774</span>
+                <span class="statistial__name">HAPPY CLIENTS</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Experience -->
+    <section class="experience" id="about">
+        <div class="experience__content">
+            <p class="experience__sub">
+                HOW DO WE WORKS
+            </p>
+            <h2 class="experience__heading">
+                DIGITAL EXPERIENCE
+            </h2>
+            <p class="experience__desc">
+                We are committed to providing our customers with exceptional service while offering our
+                employees the best training.
+            </p>
+        </div>
+
+        <div class="experience__video">
+            <video src="./img/video.mp4" controls autoplay muted></video>
+
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="contact" id="contact">
+        <div class="contact__content">
+            <h2 class="contact__heading">
+                Contact
+            </h2>
+            <p class="contact__desc">
+                Thank you for your interest in our website & our services. If you have any
+                questions, please write us a message now!
+            </p>
+        </div>
+
+        <div class="contact__info">
+            <div class="contact__map">
+                <iframe class="map__iframe"src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d125386.3464516315!2d106.61275207883689!3d10.86299427781488!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752edc3f3043a7%3A0xb490b64157cb9dc1!2zVHJ1bmcgVMOibSDEkMOgbyBU4bqhbyBM4bqtcCBUcsOsbmggQ3liZXJTb2Z0IC0gQ8ahIFPhu58gUXXhuq1uIDEwLCBUUC5IQ00!5e0!3m2!1svi!2s!4v1703708941630!5m2!1svi!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            
+            <form action="" class="contact__form">
+                <input type="text" name="" id="" placeholder="Username" required class="input__name">
+                <input type="text" name="" id="" placeholder="Email Address" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" required class="input__email">
+                <textarea name="" id="" cols="30" rows="10" class="text__question" placeholder="Ask a Question..."></textarea>
+                <button class="contact__submit">
+                    Submit
+                </button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <div class="footer">
+        <div class="footer__body">
+            <span class="footer-right">
+                © 2021 UI-CYBERSOFT. ALL RIGHTS RESERVED.
+            </span>
+            <div class="footer__contact">
+                <a href="#!">
+                    <div class="footer__icon">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </div>
+                </a>
+                <a href="#!">
+                    <div class="footer__icon">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </div>
+                </a>
+                <a href="#!">
+                    <div class="footer__icon">
+                        <i class="fa-brands fa-youtube"></i>
+                    </div>
+                </a>
+                <a href="#!">
+                    <div class="footer__icon">
+                        <i class="fa-brands fa-twitter"></i>
+                    </div>
+                </a>
+            </div>
+            <a href="#" class="go-home">
+                <i class="fa-solid fa-chevron-up"></i>
+            </a>
+        </div>
+    </div>
+
+    <!-- Script -->
+    <script src="./js/main.js"></script>
+    <script src="./js/slick.min.js"></script>
+</body>
+</html>
